@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+
+   <ImageView
+       android:id="@+id/test"
+       android:layout_width="match_parent"
+       android:layout_height="1500px"
+
+       />
+
+
+    <Button
+        android:id="@+id/fifty"
+        android:layout_width="40px"
+        android:layout_height="40px"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="400dp"
+        android:background="@drawable/button_bg_round" />
+
+    <Button
+        android:layout_below="@+id/fifty"
+        android:id="@+id/fourty"
+        android:layout_width="40px"
+        android:layout_height="40px"
+        android:background="@drawable/button_bg_round"
+        android:layout_marginLeft="388dp"/>
+
+    <Button
+        android:layout_below="@+id/fourty"
+        android:id="@+id/thirty"
+        android:layout_width="40px"
+        android:layout_height="40px"
+        android:background="@drawable/button_bg_round"
+        android:layout_marginLeft="374dp"/>
+
+    <Button
+        android:layout_below="@+id/thirty"
+        android:id="@+id/twenty"
+        android:layout_width="40px"
+        android:layout_height="40px"
+        android:background="@drawable/button_bg_round"
+        android:layout_marginLeft="360dp"/>
+
+    <Button
+        android:layout_below="@+id/twenty"
+        android:id="@+id/ten"
+        android:layout_width="40px"
+        android:layout_height="40px"
+        android:background="@drawable/button_bg_round"
+        android:layout_marginLeft="345dp"/>
+
+    <Button
+        android:layout_below="@+id/ten"
+        android:id="@+id/nine"
+        android:layout_width="40px"
+        android:layout_height="40px"
+        android:background="@drawable/button_bg_round"
+        android:layout_marginLeft="330dp"/>
+
+    <Button
+        android:layout_below="@+id/nine"
+        android:id="@+id/eight"
+        android:layout_width="40px"
+        android:layout_height="40px"
+        android:background="@drawable/button_bg_round"
+        android:layout_marginLeft="320dp"/>
+    <Button
+        android:layout_below="@+id/eight"
+        android:id="@+id/seven"
+        android:layout_width="40px"
+        android:layout_height="40px"
+        android:background="@drawable/button_bg_round"
+        android:layout_marginLeft="310dp"/>
+    <Button
+        android:layout_below="@+id/seven"
+        android:id="@+id/six"
+        android:layout_width="40px"
+        android:layout_height="40px"
+        android:background="@drawable/button_bg_round"
+        android:layout_marginLeft="300dp"/>
+    <Button
+        android:layout_below="@+id/six"
+        android:id="@+id/five"
+        android:layout_width="40px"
+        android:layout_height="40px"
+        android:background="@drawable/button_bg_round"
+        android:layout_marginLeft="290dp"/>
+
+    <Button
+        android:layout_below="@+id/five"
+        android:id="@+id/four"
+        android:layout_width="40px"
+        android:layout_height="40px"
+        android:background="@drawable/button_bg_round"
+        android:layout_marginLeft="280dp"/>
+
+    <Button
+        android:layout_below="@+id/four"
+        android:id="@+id/three"
+        android:layout_width="40px"
+        android:layout_height="40px"
+        android:background="@drawable/button_bg_round"
+        android:layout_marginLeft="270dp"/>
+    <Button
+        android:layout_below="@+id/three"
+        android:id="@+id/two"
+        android:layout_width="40px"
+        android:layout_height="40px"
+        android:background="@drawable/button_bg_round"
+        android:layout_marginLeft="260dp"/>
+    <Button
+        android:layout_below="@+id/two"
+        android:id="@+id/one"
+        android:layout_width="40px"
+        android:layout_height="40px"
+        android:background="@drawable/button_bg_round"
+        android:layout_marginLeft="250dp"/>
+
+     <Button
+     android:layout_below="@+id/one"
+     android:id="@+id/zero"
+     android:layout_width="40px"
+     android:layout_height="40px"
+     android:background="@drawable/button_bg_round"
+     android:layout_marginLeft="240dp"/>
+
+
+     <Button
+     android:layout_below="@+id/zero"
+     android:id="@+id/minusone"
+     android:layout_width="40px"
+     android:layout_height="40px"
+     android:background="@drawable/button_bg_round"
+     android:layout_marginLeft="235dp"/>
+
+
+     <Button
+     android:layout_below="@+id/minusone"
+     android:id="@+id/minustwo"
+     android:layout_width="40px"
+     android:layout_height="40px"
+     android:background="@drawable/button_bg_round"
+     android:layout_marginLeft="230dp"/>
+
+
+ <Button
+     android:layout_below="@+id/minustwo"
+     android:id="@+id/minusthree"
+     android:layout_width="40px"
+     android:layout_height="40px"
+     android:background="@drawable/button_bg_round"
+     android:layout_marginLeft="225dp"/>
+
+ <Button
+     android:layout_below="@+id/minusthree"
+     android:id="@+id/minusfour"
+     android:layout_width="40px"
+     android:layout_height="40px"
+     android:background="@drawable/button_bg_round"
+     android:layout_marginLeft="220dp"/>
+
+ <Button
+     android:layout_below="@+id/minusfour"
+     android:id="@+id/minusfive"
+     android:layout_width="40px"
+     android:layout_height="40px"
+     android:background="@drawable/button_bg_round"
+     android:layout_marginLeft="215dp"/>
+
+
+
+ <Button
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tabomega"
+        android:layout_width="300px"
+        android:layout_height="150px"
+        android:layout_marginBottom="45dp"
+        android:background="@drawable/jelbuttton"
+        />
+
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentBottom="true"
+     android:layout_alignParentRight="true"
+     android:layout_marginBottom="45dp"
+     android:layout_marginRight="60dp"
+     android:id="@+id/textView"
+     android:textSize="60sp" />
+
+    <ImageView
+        android:id="@+id/homebutton"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        app:srcCompat="@drawable/mansion" />
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MsnWelTek</string>
+
+    <string name="USER_FORM_URL">http://www.venugopalachary.com/neemax/welcome.php</string>
+</resources>
